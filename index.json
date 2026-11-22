@@ -1,0 +1,11 @@
+{
+  "org": "hyperium",
+  "repo": "headers",
+  "versions": [
+    {
+      "commit": "8db1b786d414cc43e4d77e73b0f7afdcf061be59",
+      "tag": "headers-v0.4.1",
+      "parsed_at": "2026-11-22T15:00:17.774675+00:00"
+    }
+  ]
+}

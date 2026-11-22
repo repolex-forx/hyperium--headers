@@ -182,7 +182,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/digest.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/8db1b786d414cc43e4d77e73b0f7afdcf061be59/chunk-001.nq.gz",
+      "dep": "dep/8db1b786d414cc43e4d77e73b0f7afdcf061be59.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

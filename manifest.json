@@ -102,6 +102,86 @@
       ],
       "ast": [
         "aggregate/ast/8db1b786d414cc43e4d77e73b0f7afdcf061be59/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8db1b786d414cc43e4d77e73b0f7afdcf061be59.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.0.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "1c06623c9d97d42ac02c351ab4872d6481c793f7",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "headers-core",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "hyperium",
+          "githubRepo": "headers",
+          "githubUrl": "https://github.com/hyperium/headers",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "mime",
+          "ecosystem": "CARGO",
+          "version": "0.3.14",
+          "githubOrg": "hyperium",
+          "githubRepo": "mime",
+          "githubCommit": "9b6b1eb321235278560a44b43951cf1a419ff682",
+          "githubTag": "v0.3.14",
+          "githubUrl": "https://github.com/hyperium/mime",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha1",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "httpdate",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "pyfisch",
+          "githubRepo": "httpdate",
+          "githubUrl": "https://github.com/pyfisch/httpdate",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/digest.rs"
+        }
       ]
     }
   ],
